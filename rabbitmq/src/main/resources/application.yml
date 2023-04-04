@@ -3,10 +3,10 @@ server:
 
 spring:
   rabbitmq:
-    host: 148.70.153.63
+    host: 127.0.0.1
     port: 5672
-    username: libai
-    password: password
+    username: guest
+    password: guest
     # 确认消息已发送到交换机(Exchange); 2.2.x改为 publisher-confirm-type: correlated
     publisher-confirms: true
     # 确认消息已发送到队列(Queue)
